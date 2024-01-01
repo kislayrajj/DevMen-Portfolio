@@ -1241,9 +1241,10 @@ background: linear-gradient(109.6deg, rgb(6, 2, 2) 32.4%, rgb(137, 30, 47) 98.8%
 .logo-rotate
   {
     position: absolute;
+    position: absolute;
 left: 150px;
-top: 6700px;
-    animation: rotate 5s linear infinite;
+top: 6780px;
+    animation: rotate 8s linear infinite;
   }
   @keyframes rotate {
     0% {
