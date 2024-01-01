@@ -309,6 +309,10 @@ z-index: -1;
   transition: none;
 }
 
+.my-works-link > i:hover{
+  background: none;
+}
+
 .follow-me-icons {
   font-family: "Inter", sans-serif;
   font-size: 17px;
