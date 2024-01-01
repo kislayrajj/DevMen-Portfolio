@@ -492,6 +492,10 @@ transform: rotate(360deg);
   }
 }
 
+.animated:hover{
+  animation: none;
+}
+
 .section-About-me {
   background: rgb(222, 107, 64);
   display: flex;
@@ -1245,6 +1249,10 @@ top: 6700px;
       transform: rotate(360deg);
     }
   }
+
+.logo-rotate:hover{
+  animation: none;
+}
 
   .work-together{
     padding: 120px 0 0 470px;
