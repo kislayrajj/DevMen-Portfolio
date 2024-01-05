@@ -26,6 +26,41 @@
   scroll-behavior:smooth;
   scroll-padding-top: 80px;
 }
+/* @media  screen and (max-width:1420px) {
+  body{
+visibility: hidden;
+  }
+
+  .temp-message{
+    visibility: visible !important;
+    display: block;
+    font-size: 100px;
+  }
+  
+} */
+ /* .temp-message{
+  display: block;
+ }
+
+
+@media (max-width:1080px) {
+ body:not(.temp-message){
+   visibility: hidden;
+  }
+.temp-message{
+   display:block !important;
+    font-size: 100px;
+    color: black;
+    height: 500px;
+    width: 500px;
+    background-color: red;
+  }
+
+  main .navbar{
+  background-color: red;
+  }
+} */
+
 .main-section {
   /* background: url(./images/background.png); */
   /* background-repeat: no-repeat; */
@@ -63,11 +98,26 @@ main .navbar {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 77px;
+  height: 87px;
   gap: 120px;
   background-color: rgb(255, 255, 255, 0.2);
   z-index: 99;
   background-color: rgb(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width:480px){
+
+  *{
+    width: 100vw;
+  }
+  main .navbar{
+    display: flex;
+    justify-content:start;
+    width: 100vw;
+    height: 40px;
+    background: coral;
+  }
+  
 }
 /* 
 .navbar {
@@ -98,9 +148,9 @@ main .navbar {
   margin-top: 30px;
   margin-right: 250px;
 }
+
 .navbar ul li a {
   text-decoration: none;
-  /* color: #5a5a5a; */
   color: rgb(255, 255, 255);
 }
 
@@ -145,19 +195,48 @@ main .navbar {
   /* background-color: pink;
    transition: 1s all  ease-in-out; */
 }
+/* 
+@media screen and (max-width:480px){
+  *{
+    width: 480px !important;
+  }
 
-/* .hire-me-button::after{
-content: "";
-margin-right: 100px;
-height: 60px;
-width: 190px;
-background-color: black;
-position: absolute;
-top:55px;
-right: -116px;
-z-index: -1;
+  .navbar .logo img{
+    display: none;
+     }
+  .li-home{
+    display: none;
+  } 
+  .li-blog{
+    display: none;
+  }
+
+  main .navbar{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+  }
+
+  .navbar ul{
+    justify-content: space-around;
+    list-style: none;
+    gap: 0px;
+    font-size: 10px;
+    margin-top: 20px;
+  }
+.hire-me-button{
+padding-right: px;
+}
+
+
+  .main-section {  
+    margin: auto;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+    height: 900px;
+  }
 } */
-
 .section2-intro {
   display: flex;
   justify-content: space-evenly;
@@ -175,7 +254,7 @@ z-index: -1;
 
 .my-name {
   display: flex;
-  align-items: cente;
+  align-items: center;
   margin-top: 190px;
   margin-left: 240px;
   gap: 20px;
@@ -1441,4 +1520,208 @@ border-radius: 40px;
   100% {
     background-position: 0% 50%;
   }
+}
+
+
+
+@media  (max-width:480px){
+  .navbar .logo{
+    display: none;
+  }
+  .li-home{
+    display: none;
+  }
+  .li-blog{
+    display: none;
+  }
+  .navbar ul {
+    font-size: 10px;
+    margin-top: 15px;
+    width: 50vw;
+    margin-left:0px;
+   
+  }
+  .navbar .menu-and-button{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+  }
+  .hire-me-button{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 15px 5px 15px 10px;
+    margin-top: 5px;
+    margin-left: -250px;
+    height: 3px;
+    width: 65px;
+   font-size: 10px;
+  } 
+
+  .section2-intro{
+    width: 100vw;
+  display: block;
+  margin-top: 140px;
+  }
+
+  .section2-intro .intro-left {
+    width: 100vw;
+  }
+
+  .my-name{
+    display: flex;
+    align-items: center;
+    margin-top: -100px;
+    margin-left: 50px;
+    gap: 20px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 40px;
+    color: RGB(18, 20, 29);
+    font-weight: 550;
+  }
+
+  .namaskar{
+    height: 20px;
+    width: 20px;
+  }
+
+  .my-job{
+margin-left: 80px;
+ animation: none;
+  }
+
+  .job-disc{
+    margin-left: 50px;
+    font-size: 16px;
+  }
+
+  .button-and-link {
+    margin-left: 50px;
+    font-size: 10px;
+  }
+
+  .say-hello-button {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100px !important;
+  }
+  .my-works-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .follow-me-icons{
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .intro-right{
+    width: 100vw;
+    margin-top: 70px;
+  }
+
+  .profilecard{
+    height: 300px;
+    width: 200px;
+    margin-left: 70px;
+  }
+  .profile-top {
+    margin-top: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  .profile-top > h2 {
+    font-size: 1rem;
+  }
+  
+  .profile-top > p {
+    font-size: 12px;
+   margin-right: 200px;
+  }
+  
+  .dp{
+    margin-top: -10px;
+   width: 150px;
+  margin-left: 20px;
+  }
+.message {
+  margin-top: 10px;
+  font-size: 10px;
+  text-align: center;
+  margin-left: -110px;
+}
+  .message > p {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  .chat-btn {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 30px;
+    padding: 0px 20px 20px 45px;
+  height: 20px;
+  width: 55px;
+  }
+
+  .animated {
+    top: 100px;
+    right: 10px;
+    width: 80px;
+    
+  }
+
+  .animated img{
+    height: 80px;
+    width: 80px;
+    animation: none;
+  }
+}
+
+.temp-message{
+  display: none;
+}
+
+@media (max-width:1420px){
+  .whole{
+    display: none;
+  }
+  .temp-message{
+    height: 60vh;
+    width: 50vw;
+    margin: 50px auto;
+    display: block;
+    font-size: 25px;
+    font-weight: 550;
+    padding: 50px;
+    font-family: "DM Sans", sans-serif;
+    color: rgb(41, 27, 27);
+    background: linear-gradient(135deg, #ff6b6b, #7ed56f, #62b7d5, #ffb366, #8e44ad);
+    background-size: 500% 500%;
+    animation: colorfulGradientAnimation 10s ease infinite;
+  }
+  
+  @keyframes colorfulGradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    25% {
+      background-position: 100% 50%;
+    }
+    50% {
+      background-position: 0% 50%;
+    }
+    75% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
 }
