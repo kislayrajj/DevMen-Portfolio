@@ -2030,7 +2030,7 @@ padding-left: 90px;
   display: none;
 }
 
-@media (min-width: 768px) and (max-width: 1400px){
+@media (max-width: 1400px){
   .whole{
     display: none;
   }
