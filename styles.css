@@ -105,7 +105,7 @@ main .navbar {
   background-color: rgb(0, 0, 0, 0.2);
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:767px){
 
   *{
     width: 100vw;
@@ -1303,7 +1303,7 @@ color: red;
 }
 
 .sliding-track{
-  animation: scroll 80s linear infinite;
+  animation: scroll 20s linear infinite;
   display: flex;
   width: calc(250px *14);
 }
@@ -1326,7 +1326,7 @@ color: red;
 }
 
 .section-contact{
-  height: 500px;
+  height: 600px;
 margin-top: 1100px;
 color: #F0F0F0;
 background: linear-gradient(109.6deg, rgb(6, 2, 2) 32.4%, rgb(137, 30, 47) 98.8%);
@@ -1419,9 +1419,6 @@ top: 6780px;
     color: aquamarine;
   }
 
-  .section-contact{
-    height: 600px;
-  }
   .contact-details{
     display: flex;
     justify-content: space-between;
@@ -1529,7 +1526,7 @@ border-radius: 40px;
 
 
 
-@media  (max-width:480px){
+@media  (max-width:767px){
   .navbar .logo{
     display: none;
   }
@@ -1686,13 +1683,354 @@ margin-left: 80px;
     width: 80px;
     animation: none;
   }
+.section-About-me{
+  display: block;
+  width: 100vw;
+  height: 80vh;
+}
+
+.section-About-me-left{
+  margin-left: -200px;
+  margin-top: -130px;
+}
+.years-backgroung{
+  width: 260px;
+}
+
+.section-About-me-right{
+  margin-left: 80px;
+}
+
+.aboutme-info{
+  width: 70vw;
+}
+
+.button-and-sign{
+
+ gap: 30px;
+}
+
+.download-cv-button{
+  font-size: 10px;
+  margin-top: 35px;
+ height: 40px;
+padding-top: 20px;
+width: 150px;
+}
+
+.signature img{
+  margin-top: 25px;
+  height: 100px;
+  width: 200px;
+}
+
+.section-my-expert-areas{
+  display: block;
+}
+
+.my-expert-areas-left{
+  padding: 0;
+  width: 100vw;
+}
+
+.myresume-button a > i{
+  display: none;
+}
+
+.my-expert-areas-right{
+  width:100vw;
+}
+
+.skil-exp-edu-buttons{
+  gap: 0px;
+  margin-left: 20px;
+}
+
+.skill-n-work-box{
+  width: 100vw;
+}
+.skill-n-work1{
+display: flex;
+justify-content:start;
+gap: 0px;
+line-height: normal;
+padding: 0;
+margin-top:10PX;
+}
+
+.skill-n-work2{
+  display: flex;
+  justify-content:start;
+  gap: 0px;
+  line-height: normal;
+  padding: 0;
+  margin-top:10PX;
+}
+
+.skill-git-hub, .skill-ms-skill, .skill-ms-skill, .skill-javascript{
+  margin-left: -260px;
+}
+
+.section-counter-js{
+  display: block;
+  margin-top: 50px;
+  margin-left: 150px;
+  height: 700px;
+}
+
+.counter-disc{
+  margin-top: 50px;
+}
+
+.section-services-i-provide{
+  padding: 0;
+  width: 100vh;
+
+}
+
+.section-name{
+  padding: 0;
+}
+
+.section-name::after{
+  left: 180px;
+}
+
+.services-list{
+  padding: 0;
+  width: 100vw;
+}
+
+.services-list li {
+  width: 80vw;
+}
+.service-disc{
+display: none;
+}
+
+.services{
+padding: 0;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-left: 20px;
+gap:150px ;
+}
+
+.section-heading{
+  padding-left: 50px;
+}
+
+
+.slider-container{
+  margin-left: 30px;
+  width: 90vw;
+}
+
+.slider-controls {
+  width: 100vw;
+  display: none;
+}
+
+.section-testimonial{
+height: 150vh;
+}
+
+.testimonial-heading{
+  padding: 30px;
+}
+
+.testimonial-heading::after{
+  left: 340px;
+  top: 130px;
+}
+
+.client-row1{
+  display: block;
+  padding: 10px 0 0 50px;
+
+}
+
+.client-row1 i{
+  display: none;
+}
+.client-row2{
+  display: none;
+}
+
+.client-img img {
+  height: 150px;
+  width: 150px;
+  margin-left: 70px;
+}
+
+.client2, .client3{
+  margin-top: 50px;
+}
+
+.company-nm{
+  padding: 5px 0 0 65px;
+}
+
+.section-my-blog-post{
+  height: 100vh;
+  
+}
+.heading-blog-post{
+  padding: 30px;
+}
+
+.heading-blog-post::after {
+  bottom: 50px;
+  left: 275px;
+}
+
+.my-blog-post-top , .my-blog-post-bottom{
+  display: block;
+}
+
+.my-blog-post-bottom{
+  margin-top: -50px;
+}
+
+.box2, .box3, .box4{
+  margin-top: 20px;
+}
+
+.blog-box{
+  height: 120px;
+  margin-left: 20px;
+  width: 90vw;
+}
+
+.blog-img img{
+  height: 80px;
+  width: 130px;
+margin-left: -180px;
+  border: 1px solid transparent;
+border-radius: 35px;
+}
+
+.blog-read-more{
+display: none;
+}
+
+.blog-topic{
+  margin-top: -40px;
+  width: 250px;
+}
+
+.sliding-logos{
+  padding: 30px;
+  width: 80vw;
+  height: 200px;
+}
+
+.slide-logo{
+  height: 50px;
+  width: 450px;
+}
+
+.section-contact{
+position: relative;
+margin-top: 20px;
+height: 65vh;
+width: 100vw;
+}
+
+.logo-rotate{
+position: absolute;
+top: 50px;
+left: 10px;
+height: 90px;
+width: 90px;
+}
+
+.logo-rotate img{
+  height: 90px;
+  width: 90px;
+}
+
+.info-box{
+  display: block;
+}
+
+.work-together{
+  padding: 50px 0 0 110px;
+}
+
+.lets-work{
+  font-size: 35px;
+}
+
+.work-button{
+  margin-top: 50px;
+margin-left: 100px;
+justify-content: center;
+padding-left: 90px;
+}
+
+
+.contact-details{
+  width: 90vw;
+  gap: 0px;
+  margin-top: 30px;
+  font-family: "Inter", sans-serif;
+}
+
+.call-us{
+  margin-left: 30px;
+  font-size: 40px;
+  padding: 100px;
+}
+.contact-details .contact-name{
+  padding: 0px;
+  width: 50%;
+ 
+}
+
+.contact-details .contact-info{
+  padding: 0;
+  font-size: 18px;
+}
+
+.hi, .bye{
+  display: none;
+}
+
+.last-logo img{
+  height: 40px;
+  width: 150px;
+  margin-left: 1px;
+  margin-top: 10px;
+}
+
+.last-section{
+  height: 60px;
+}
+
+.copyright{
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.top-nav-button{
+  height: 50px;
+  width: 50px;
+  left: 380px;
+  bottom: 10;
+}
+
+.top-nav-button i{
+  font-size: 30px;
+}
 }
 
 .temp-message{
   display: none;
 }
 
-@media (max-width:1420px){
+@media (min-width: 768px) and (max-width: 1400px){
   .whole{
     display: none;
   }
@@ -1729,4 +2067,4 @@ margin-left: 80px;
     }
   }
 
-}
+} 
